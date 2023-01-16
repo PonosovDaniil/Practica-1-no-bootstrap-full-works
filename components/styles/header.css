@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+
+    position: relative;
+    z-index: 1;
+}
+
+header > .block_logo > .logo_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    margin-top: 65px;
+}
+
+.grey_text_small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1.5px; /* определит меж буквенное расстояние */
+    color: #ffffff67;
+    transition: 150ms;
+}
+.grey_text_small.text_animation_light:hover {
+    color: #fff;
+    transition: 150ms;
+}

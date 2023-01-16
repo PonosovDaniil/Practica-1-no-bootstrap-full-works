@@ -1,0 +1,42 @@
+.workout_list {
+    margin-top: 190px;
+    position: relative;
+    z-index: 1;
+}
+.list_point {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d8d8d840;
+}
+.number_point {
+    height: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff34;
+}
+.info_list {
+    width: 500px;
+}
+.title_point {
+    height: 70px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 0.833333px;
+    color: #ffffff;
+}
+.signature_point {
+    height: 23px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #ffffff50;
+}
